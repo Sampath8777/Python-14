@@ -10,7 +10,3 @@ for i in l:
 res=Even+Odd
 for i in res:
     print(i,end=' ')
-Output:
-6
-5 4 9 3 5 1 2
-4 2 5 9 3 5 1
