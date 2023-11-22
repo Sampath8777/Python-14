@@ -1,0 +1,16 @@
+n=int(input())
+l=list(map(int,input().split()))
+Even=[]
+Odd=[]
+for i in l:
+    if i%2==0:
+        Even.append(i)
+    else:
+        Odd.append(i)
+res=Even+Odd
+for i in res:
+    print(i,end=' ')
+Output:
+6
+5 4 9 3 5 1 2
+4 2 5 9 3 5 1
